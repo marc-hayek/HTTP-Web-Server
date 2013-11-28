@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Web Server User Manual</title>
+</head>
+
+<body bgcolor=#CACAFF>
+<br><br>
+<br><br>
+<CENTER><h1><U>Welcome To the EECE 450 Web Server User Manual</U></h1></CENTER>
+<br><br>
+<br><br>
+<br><br>
+<p><strong><U>EECE 450 Web Server User Manual:</U></strong></p>
+<p>The EECE 450 Web Server provides you with the ability to retrieve requests conforming with HTTP 1.1 using an internet browser.</p>
+<U>The following browsers are identified by the server:</U>
+<ol>
+<li>Mozilla Firefox</li>
+<li>Microsoft Internet Explorer</li>
+<li>Google Chrome</li>
+<li>Safari</li>
+</ol>
+
+<U>Starting Up:</U><br>
+
+	<br class="tab"> To start running the web server, press enter on the welcome screen to enter the server setting screen. Here, the user can set the port number, directory, and the user name and password for protected files. When pleased with the settings, press the run button to start the server. Press Exit to exit the server.
+
+
+
+
+<U>Requesting a file:</U><br>
+
+	<br class="tab"> In order to request a file, enter the ip address of the server followed by a colon ":" which is then followed by the port number(2050 by default) and a forward slash"/".</br>
+You can now write the name of the file requested followed by the file type. If a file is not specified, the index page is returned automatically.
+<p><U>Example:</U></p>
+http://192.168.0.1:2050/index.html<br>
+http://192.168.0.1:2050/<br><br>
+<U>Requesting a directory:</U>
+<p> In order to request a directory, follow the same steps of opening a file but leave type the directory name followed by a forward slash<p>
+<p><U>Example:</U></p>
+<p>http://192.168.0.1:2050/images/</p>
+<U>Creating Dynamic Pages:</U><br>
+<p> The web server allows users to create 4 types of dynamic pages:</p>
+<ol>
+<li>Dynamic Links from a specific category</li>
+<li>Email Link</li>
+<li>Dyanmic Images</li>
+<li>Mix of links, images, and paragraphs</li>
+</ol>
+<U>1.Dynamic Links from a specific category:</U><br><br>
+The web server allows to users to generate web links that belong to specific category.
+The available categories are News,Games, and Search.
+To generate dynamic links, the user must input the following into the URL:
+<br><br>
+.../category?links=m
+<br><br>
+The category should be specified from the above mentioned available categories, whereas "m" is an integer from 0 to 10 which represents the number of links requested. The webserver will then randomly generate 10 links of that category.
+If m is not specified,or is less than 0, 0 links will be generated. If m greater than 10, 10 links will be generated.<br><br>
+
+<U>2.Email Link:</U><br><br>
+The web server allows to users to generate an email link specified by the user.
+To generate an email link, the user must input the following into the URL:
+<br><br>
+.../email?to=fullemailaddress
+<br><br>
+The server will then generate a link to that email address.<br><br>
+
+<U>3.Dynamic Images:</U><br><br>
+The web server allows to users to generate a specified number of images. Each image generated also contains a link corresponding to that image. Clicking on the image would open the link. 
+To generate a set of images, the user must input the following into the URL:
+<br><br>
+.../images?number=n<br><br>
+The number n should be a positive number, and it specifies the number of images requested. The web sever will generate a random set of images.<br><br>
+
+<U>4.Mix of links, images, and paragraphs:</U><br><br>
+The web server allows users to generate a mix of links,images, and paragraphs. To generate the links,images,and paragraphs, the user must input the following into the URL in any order:
+<br><br>
+.../mix?paragraphs=m,links=m,images=n<br><br>
+The integers specified follow the same rules as mentioned above. The web sever will generate a random set of images, links, and paragraphs.<br><br>
+
+<U>For more information, please contact the following administrators:</U><br><br>
+<ul>
+<li><a href = "mailto:ggk04@aub.edu.lb">ggk04@aub.edu.lb </a><br></li>
+<li><a href = "mailto:jgs10@aub.edu.lb">jgs10@aub.edu.lb</a><br></li>
+<li><a href = "mailto:mgh21@aub.edu.lb">mgh21@aub.edu.lb </a></li>
+<ul><br><br><br><br>
+
+
+
+
+
+</body>
+</html>

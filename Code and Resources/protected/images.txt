@@ -1,0 +1,10 @@
+<a href = "http://www.google.com"><img src = "images/Google.bmp" width = "140"  height = "100" alt = "Google.com Page" /></a><br />  
+<a href = "http://www.metallica.com"><img src = "images/Metallica.jpg" width = "140"  height = "140" alt = "Metallica.com Page" /></a><br />  
+<a href = "http://www.gibson.com"><img src = "images/Gibson.jpg" width = "115" height = "220" alt = "Gibson.com Page" /></a><br/>  
+<a href = "http://www.porsche.com"><img src = "images/Porsche.jpg" width = "140" height = "100" alt = "Porsche.com Page" /></a><br/>  
+<a href = "http://www.premierleague.com"><img src = "images/Premier.jpg" width = "140"  height = "100" alt = "Premier League Page" /></a><br/>
+<a href = "http://www.familyguy.com"><img src = "images/Evilmonkey.jpg" width = "140"  height = "100" alt = "Family Guy Page" /></a><br/>
+<a href = "http://www.imdb.com"><img src = "images/imdb.jpg" width = "140"  height = "100" alt = "Imdb Page" /></a><br/>
+<a href = "http://www.aub.edu.lb"><img src = "images/aub.jpg" width = "140"  height = "100" alt = "AUB Website" /></a><br/>
+<a href = "http://www.wikipedia.org"><img src = "images/wiki.jpg" width = "140"  height = "140" alt = "Wikipedia Page" /></a><br/>
+<a href = "http://www.ultimate-guitar.com"><img src = "images/UG.jpg" width = "140"  height = "100" alt = "Ultimate-Guitar Page" /></a><br/>

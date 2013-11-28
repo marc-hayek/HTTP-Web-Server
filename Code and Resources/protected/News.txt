@@ -1,0 +1,10 @@
+<li><p><a href = "http://www.cnn.com">CNN</a></p></li>
+<li><p><a href = "http://www.bbc.co.uk/news/">BBC News</a></p></li>
+<li><p><a href = "http://www.foxnews.com">Fox News</a></p></li>
+<li><p><a href = "http://news.google.com">Google News</a></p></li>
+<li><p><a href = "http://abcnews.go.com">ABC News</a></p></li>
+<li><p><a href = "http://www.news24.com">News24</a></p></li>
+<li><p><a href = "http://news.sky.com">Sky News</a></p></li>
+<li><p><a href = "http://www.nytimes.com">NY Times</a></p></li>
+<li><p><a href = "http://www.cbsnews.com">CBS News</a></p></li>
+<li><p><a href = "http://www.www.reuters.com">Reuters</a></p></li>
